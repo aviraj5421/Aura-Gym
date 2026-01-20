@@ -1,5 +1,6 @@
 import React, { useState, useEffect, createContext, useContext, useMemo } from 'react';
 import * as ReactDOMClient from 'react-dom/client';
+import './styles/tailwind.css';
 import { 
   Dumbbell, LayoutDashboard, Utensils, CreditCard, Users, 
   LogOut, Zap, Activity, Flame, Apple, Clock, CheckCircle2, 
